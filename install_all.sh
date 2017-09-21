@@ -94,7 +94,7 @@ if [ $current -eq 1 ]; then
 else
     git clone -b v0.35.0  --depth 1 https://github.com/facebook/folly
     git clone -b v0.24.0  --depth 1 https://github.com/facebook/fbthrift
-    git clone -b v1.0 https://github.com/mputz86/thpp
+    git clone -b v1.0.1 https://github.com/mputz86/thpp
     git clone -b v1.0 https://github.com/facebook/fblualib
 fi
 
